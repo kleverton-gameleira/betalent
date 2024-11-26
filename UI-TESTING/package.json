@@ -1,0 +1,16 @@
+{
+  "name": "ui-testing",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx cypress run",
+    "open": "npx cypress open"
+  },
+  "keywords": [],
+  "author": "Kleverton de sousa Gameleira",
+  "license": "ISC",
+  "description": "Projeto de testes funcionais automatizados loja SAUCE DEMO",
+  "devDependencies": {
+    "cypress": "^13.16.0"
+  }
+}
