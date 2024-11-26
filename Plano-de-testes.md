@@ -15,7 +15,34 @@ Validar e garantir o funcionamento correto do sistema de loja virtual SAUCE DEMO
 
 ## Escopo de testes
 
-### Caso de Teste 1: Login de Usuário - usuario não cadastrado
+### Caso de Teste: Login de Usuário - campo usuario sem preenchimento
+
+- **Objetivo**: Validar a mensagem de campo obrigatorio é exibida quando o campo usuario e deixado sem preenchimento.
+- **Pré-condição**: O usuário deve fornecer como entrada um usuario que nao esteja cadastrado no sistema.
+- **Passos**:
+  1. Acessar a página de login.
+  2. Inserir no campo Username um usuario que não esteja cadastrado no sistema.
+  3. Inserir no campo Password uma senha válida.
+  4. Clicar em "Login".
+- **Resultado Esperado**: O sistema deve exibir na tela uma mensagem informando que o preenchimento do campo usuario obrigatorio.
+- **Resultado Obtido**: [A ser preenchido após execução]
+- **Status**: [Passou/Falhou]
+
+
+### Caso de Teste: Login de Usuário - campo senha sem preenchimento
+
+- **Objetivo**: Validar a mensagem de campo obrigatorio é exibida quando o campo senha e deixado sem preenchimento.
+- **Pré-condição**: O usuário deve fornecer como entrada um usuario que nao esteja cadastrado no sistema.
+- **Passos**:
+  1. Acessar a página de login.
+  2. Inserir no campo Username um usuario que não esteja cadastrado no sistema.
+  3. Inserir no campo Password uma senha válida.
+  4. Clicar em "Login".
+- **Resultado Esperado**: O sistema deve exibir na tela uma mensagem informando que o preenchimento do campo usuario obrigatorio.
+- **Resultado Obtido**: [A ser preenchido após execução]
+- **Status**: [Passou/Falhou]
+
+### Caso de Teste: Login de Usuário - usuario não cadastrado
 
 - **Objetivo**: Validar a mensagem de retorno de usuario não cadastrado.
 - **Pré-condição**: O usuário deve fornecer como entrada um usuario que nao esteja cadastrado no sistema.
@@ -29,7 +56,7 @@ Validar e garantir o funcionamento correto do sistema de loja virtual SAUCE DEMO
 - **Status**: [Passou/Falhou]
 
 
-### Caso de Teste 2: Login de Usuário - senha inválida
+### Caso de Teste: Login de Usuário - senha inválida
 
 - **Objetivo**: Validar a mensagem de retorno de senha inválida.
 - **Pré-condição**: O usuário deve fornecer como entrada uma senha inválida.
@@ -43,7 +70,7 @@ Validar e garantir o funcionamento correto do sistema de loja virtual SAUCE DEMO
 - **Status**: [Passou/Falhou]
 
 
-### Caso de Teste 3: Login de Usuário
+### Caso de Teste: Login de Usuário
 
 - **Objetivo**: Validar o login de um usuário com credenciais corretas.
 - **Pré-condição**: O usuário deve ter uma conta válida no sistema.
@@ -57,7 +84,7 @@ Validar e garantir o funcionamento correto do sistema de loja virtual SAUCE DEMO
 
 
 
-### Caso de Teste 4: Logout do sistema
+### Caso de Teste: Logout do sistema
 - **Objetivo**: Validar se o usuario é redirecionado para a tela de login do sistema.
 - **Pré-condição**: Estar logado no sistema.
 - **Passos**:
@@ -69,7 +96,7 @@ Validar e garantir o funcionamento correto do sistema de loja virtual SAUCE DEMO
 - **Status**: [Passou/Falhou]
 
 
-### Caso de Teste 5: Visualizar detalhes do produto
+### Caso de Teste: Visualizar detalhes do produto
 
 - **Objetivo**: Validar se os detalhes do produto selecionado são exibidos na tela.
 - **Pré-condição**: Estar logado no sistema, ter pelo menos um produto cadastrado.
@@ -81,7 +108,7 @@ Validar e garantir o funcionamento correto do sistema de loja virtual SAUCE DEMO
 - **Status**: [Passou/Falhou]
 
 
-### Caso de Teste 6: Ordenar produtos por nome 
+### Caso de Teste: Ordenar produtos por nome 
 
 - **Objetivo**: Validar se o sistema ordena os produtos no grid pelo letra inicial do produto.
 - **Pré-condição**: Estar logado no sistema, ter mais de um produto cadastrado na loja.
@@ -96,7 +123,7 @@ Validar e garantir o funcionamento correto do sistema de loja virtual SAUCE DEMO
 
 
 
-### Caso de Teste 7: Ordenar produtos por preco
+### Caso de Teste: Ordenar produtos por preco
 
 - **Objetivo**: Validar se o sistema ordena os produtos no grid pelo preco.
 - **Pré-condição**: .
@@ -110,7 +137,7 @@ Validar e garantir o funcionamento correto do sistema de loja virtual SAUCE DEMO
 - **Status**: [Passou/Falhou]
 
 
-### Caso de Teste 8: Adicionar produto ao carrinho pelo card
+### Caso de Teste: Adicionar produto ao carrinho pelo card
 
 - **Objetivo**: Validar se o produto é adicionado ao carrinho de compra quando o usuario clicar no botão Add to cart no card do produto no grid.
 - **Pré-condição**: Estar logado no sistema, ter pelo menos um produto cadastrado no sistema.
@@ -122,7 +149,7 @@ Validar e garantir o funcionamento correto do sistema de loja virtual SAUCE DEMO
 - **Status**: [Passou/Falhou]
 
 
-### Caso de Teste 9: Adicionar produto ao carrinho pela pagina de detalhes do produto
+### Caso de Teste: Adicionar produto ao carrinho pela pagina de detalhes do produto
 
 - **Objetivo**: Validar se o produto é adicionado ao carrinho de compra quando o usuario clicar no botão Add to card na pagina de detalhes do produto.
 - **Pré-condição**: .
@@ -135,7 +162,7 @@ Validar e garantir o funcionamento correto do sistema de loja virtual SAUCE DEMO
 - **Status**: [Passou/Falhou]
 
 
-### Caso de Teste 10: remover produto do carrinho pelo card
+### Caso de Teste: remover produto do carrinho pelo card
 
 - **Objetivo**: Validar se o produto pode ser removido do carrinho de comprar clicando no botão remove no card do produto no grid.
 - **Pré-condição**: Estar logado, ter pelo menos um produto selecionado no card.
@@ -147,7 +174,7 @@ Validar e garantir o funcionamento correto do sistema de loja virtual SAUCE DEMO
 - **Status**: [Passou/Falhou]
 
 
-### Caso de Teste 11: remover produto do carrinho pela pagina de detalhes do produto
+### Caso de Teste: remover produto do carrinho pela pagina de detalhes do produto
 
 - **Objetivo**: Validar se o produto é removido do carrinho de compras do sistema.
 - **Pré-condição**: .
@@ -161,7 +188,7 @@ Validar e garantir o funcionamento correto do sistema de loja virtual SAUCE DEMO
 - **Status**: [Passou/Falhou]
 
 
-### Caso de Teste 12: remover produto pelo carrinho de compras
+### Caso de Teste: remover produto pelo carrinho de compras
 - **Objetivo**: Validar se o produto é removido do carrinho de compras do sistema.
 - **Pré-condição**: .
 - **Passos**:
@@ -175,7 +202,7 @@ Validar e garantir o funcionamento correto do sistema de loja virtual SAUCE DEMO
 
 
 
-### Caso de Teste 13: checkout -first name obrigatorio 
+### Caso de Teste: checkout -first name obrigatorio 
 - **Objetivo**: Validar se a mensagem de campo obrigatorio é exibida na tela quando o usuario deixar o campo first name sem preenchimento.
 - **Pré-condição**: estar na pagina de checkout do sistema.
 - **Passos**:
@@ -189,7 +216,7 @@ Validar e garantir o funcionamento correto do sistema de loja virtual SAUCE DEMO
 - **Status**: [Passou/Falhou]
 
 
-### Caso de Teste 14: checkout -last name obrigatorio 
+### Caso de Teste: checkout -last name obrigatorio 
 - **Objetivo**: Validar se a mensagem de campo obrigatorio é exibida na tela quando o usuario deixar o campo last name sem preenchimento.
 - **Pré-condição**: estar na pagina de checkout do sistema.
 - **Passos**:
@@ -203,7 +230,7 @@ Validar e garantir o funcionamento correto do sistema de loja virtual SAUCE DEMO
 - **Status**: [Passou/Falhou]
 
 
-### Caso de Teste 15: checkout - Zip/postal code obrigatorio 
+### Caso de Teste: checkout - Zip/postal code obrigatorio 
 - **Objetivo**: Validar se a mensagem de campo obrigatorio é exibida na tela quando o usuario deixar o campo Zip/postal sem preenchimento.
 - **Pré-condição**: estar na pagina de checkout do sistema.
 - **Passos**:
@@ -217,7 +244,7 @@ Validar e garantir o funcionamento correto do sistema de loja virtual SAUCE DEMO
 - **Status**: [Passou/Falhou]
 
 
-### Caso de Teste 16: checkout produto -cancelar 
+### Caso de Teste: checkout produto -cancelar 
 - **Objetivo**: Validar se o usuario consegue cancelar a comprar antes de finalizar a compra.
 - **Pré-condição**: Ter adicionar um ou mais produtos no carrinho de compras, ter preenchido corretamente o formulario de checkout.
 - **Passos**:
@@ -232,7 +259,7 @@ Validar e garantir o funcionamento correto do sistema de loja virtual SAUCE DEMO
 - **Status**: [Passou/Falhou]
 
 
-### Caso de Teste 17: checkout produto
+### Caso de Teste: checkout produto
 - **Objetivo**:Validar se o usuario consegue finalizar a compra de um ou mais produto na loja.
 - **Pré-condição**: Ter adicionar um ou mais produtos no carrinho de compras, ter preenchido corretamente o formulario de checkout.
 - **Passos**:
@@ -276,15 +303,26 @@ Validar e garantir o funcionamento correto do sistema de loja virtual SAUCE DEMO
 
 | ID do Bug | Descrição do Bug | Gravidade  | Status   | Data de Descoberta | Responsável   |
 |-----------|------------------|------------|----------|---------------------|---------------|
-| BUG-001   | Chamada de um função javascript esta aparencendo na descrição do produto | Média       | Aberto   | 24/11/2024          | Kleverton Gameleira  |
-| BUG-002   | Chamada de um função javascript esta aparencendo no titulo do produto | Média      | Aberto  | 24/11/2024          | Kleverton Gameleira  |
-| BUG-002   | dd | Média      | Aberto  | 24/11/2024          | Kleverton Gameleira  |
+| BUG-01  | No primeiro card do grid de produtos de todos os usuarios a chamada de uma função javascript esta sendo exibida na descrição do produto  | Média  | Aberto | 24/11/2024  | Kleverton Gameleira  |
+| BUG-02  | No ultimo card do grid de produtos de todos os usuarios a chamada de uma função javascript esta sendo exibida no titulo do produto | Alta | Aberto  | 24/11/2024  | Kleverton Gameleira  |
+| BUG-03   | Ao logar na loja com o usuario problem_user as fotos exibidas no grid de produtos da loja estao erradas, estão sendo exibidas fotos de um cachorro invez da foto do produto | Alta      | Aberto  | 24/11/2024  | Kleverton Gameleira  |
+| BUG-04   | Ao logar na loja com os usuarios problem_user e error_user quando um produto é adicionado ao carrinho o botão de remove do card do produto não esta funcionando | Alta | Aberto  | 24/11/2024  | Kleverton Gameleira  |
+| BUG-05   | Ao logar no sistema com o usuario performance_glitch_user o sistema apresenta perda de performance com travamentos e lentidao em açõs com retorno do carrinho de compras | Alta | Aberto  | 24/11/2024  | Kleverton Gameleira  |
+| BUG-06   | Ao logar no sistema com o usuario de visual_user o icone de carrinho de compras esta posicionado errado | Média | Aberto  | 24/11/2024  | Kleverton Gameleira  |
+| BUG-07   | Ao logar no sistema com o usuario de visual_user o menu hanburguer esta desalinhado | Baixa | Aberto  | 24/11/2024  | Kleverton Gameleira  |
+| BUG-08   | Ao logar no sistema com o usuario error_user a funcionalidade de ordenamento não esta funcionando, quando acionada dispara um popup informando que o erro ja foi informando | Alta | Aberto  | 24/11/2024  | Kleverton Gameleira  |
+| BUG-09   | o logar no sistema com o usuario problem_user a funcionalidade de ordenamento não esta funcionando e não dispara nenhuma mensagem de feedback ao usuario | Alta | Aberto  | 24/11/2024  | Kleverton Gameleira  |
+| BUG-10   |  | Alta | Aberto  | 24/11/2024  | Kleverton Gameleira  |
+| BUG-00   |  | Alta | Aberto  | 24/11/2024  | Kleverton Gameleira  |
+| BUG-00   |  | Alta | Aberto  | 24/11/2024  | Kleverton Gameleira  |
+| BUG-00   |  | Alta | Aberto  | 24/11/2024  | Kleverton Gameleira  |
+| BUG-00   |  | Alta | Aberto  | 24/11/2024  | Kleverton Gameleira  |
 
 
 ## Sugestões de Melhorias de UX/UI
 
-1. **Melhorar a Visibilidade dos Campos de Erro**:
-   - A cor de fundo dos campos de erro não é suficientemente contrastante. Sugestão: Utilizar um fundo vermelho claro para destacar os campos inválidos.
+1. **Adicionar um botão para seleção de quantidade de itens**:
+   - Esta faltando adicionar um botão para a seleção de quantidade de itens a serem comprando.
    
 2. **Otimização da Tela de Login para Mobile**:
    - Na versão mobile, o formulário de login pode ficar difícil de ler, especialmente em dispositivos menores. Sugestão: Ajustar o layout para que os campos de entrada se adaptem melhor às diferentes resoluções de tela.
@@ -295,20 +333,11 @@ Validar e garantir o funcionamento correto do sistema de loja virtual SAUCE DEMO
 
 ## Análise de Riscos da Aplicação
 
-1. **Risco 1: Falha na Recuperação de Senha**  
+1. **Risco 1: **  
    - **Probabilidade**: Alta  
    - **Impacto**: Alto  
    - **Mitigação**: Melhorar o tratamento de erros no processo de recuperação, garantindo que o e-mail de recuperação seja enviado corretamente para todos os usuários.
 
-2. **Risco 2: Problemas de Desempenho em Navegadores Antigos**  
-   - **Probabilidade**: Média  
-   - **Impacto**: Médio  
-   - **Mitigação**: Realizar testes de compatibilidade com versões antigas dos navegadores mais utilizados e, se necessário, ajustar o código para garantir a performance adequada.
-
-3. **Risco 3: Falhas de Segurança no Login**  
-   - **Probabilidade**: Baixa  
-   - **Impacto**: Alto  
-   - **Mitigação**: Implementar criptografia robusta para senhas e realizar auditorias regulares de segurança no sistema.
 
 ---
 
