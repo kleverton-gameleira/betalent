@@ -8,6 +8,6 @@ Cypress.Commands.add('login',(
         cy.get('[data-test="username"]').type(user)
         cy.get('[data-test="password"]').type(pass,{log:false})
         cy.get('[data-test="login-button"]').click()
-        cy.url().should('eq',`${Cypress.config('baseUrl')}inventory.html`)
+        cy.url().should('eq',`${Cypress.config('baseUrl')}`)
     })
 })

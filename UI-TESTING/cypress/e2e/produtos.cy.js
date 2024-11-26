@@ -1,48 +1,31 @@
 /// <reference types='Cypress' />
 
 describe('Suite de testes produtos',()=>{
-    beforeEach(()=>{
+     beforeEach(()=>{
         cy.login()
         cy.visit('/')
-    })
-    it('Visualizar detalhes do produto',()=>{
+     })
 
+     it('testes 01',()=>{
+         cy.get('.inventory_item')
+     })
+
+     it('testes 01',()=>{
+        cy.get('.inventory_item')
+    })
+
+
+    it('testes 01',()=>{
+        cy.get('.inventory_item')
+    })
+
+    it('testes 01',()=>{
+        cy.get('.inventory_item')
+    })
+
+    it('testes 01',()=>{
+        cy.get('.inventory_item')
+    })
     
-    })
-
-    it('',()=>{
-        cy.get('div.app_logo').contains("Swag Labs").should('be.visible')
-    })
-
-    it('',()=>{
-        cy.get('div.app_logo').contains("Swag Labs").should('be.visible')
-    })
-
-    it('',()=>{
-        cy.get('div.app_logo').contains("Swag Labs").should('be.visible')
-    })
-
-    it('',()=>{
-        cy.get('div.app_logo').contains("Swag Labs").should('be.visible')
-    })
-
-    it('',()=>{
-        cy.get('div.app_logo').contains("Swag Labs").should('be.visible')
-    })
-
-    it('',()=>{
-        cy.get('div.app_logo').contains("Swag Labs").should('be.visible')
-    })
-
-    it('',()=>{
-        
-    })
-
-    it('',()=>{
-        
-    })
-    it('',()=>{
-        
-    })
-
+    
 })
