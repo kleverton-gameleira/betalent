@@ -312,11 +312,7 @@ Validar e garantir o funcionamento correto do sistema de loja virtual SAUCE DEMO
 | BUG-07   | Ao logar no sistema com o usuario de visual_user o menu hanburguer esta desalinhado | Baixa | Aberto  | 24/11/2024  | Kleverton Gameleira  |
 | BUG-08   | Ao logar no sistema com o usuario error_user a funcionalidade de ordenamento não esta funcionando, quando acionada dispara um popup informando que o erro ja foi informando | Alta | Aberto  | 24/11/2024  | Kleverton Gameleira  |
 | BUG-09   | o logar no sistema com o usuario problem_user a funcionalidade de ordenamento não esta funcionando e não dispara nenhuma mensagem de feedback ao usuario | Alta | Aberto  | 24/11/2024  | Kleverton Gameleira  |
-| BUG-10   |  | Alta | Aberto  | 24/11/2024  | Kleverton Gameleira  |
-| BUG-00   |  | Alta | Aberto  | 24/11/2024  | Kleverton Gameleira  |
-| BUG-00   |  | Alta | Aberto  | 24/11/2024  | Kleverton Gameleira  |
-| BUG-00   |  | Alta | Aberto  | 24/11/2024  | Kleverton Gameleira  |
-| BUG-00   |  | Alta | Aberto  | 24/11/2024  | Kleverton Gameleira  |
+
 
 
 ## Sugestões de Melhorias de UX/UI
