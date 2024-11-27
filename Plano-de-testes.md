@@ -323,12 +323,6 @@ Validar e garantir o funcionamento correto do sistema de loja virtual SAUCE DEMO
 
 1. **Adicionar um botão para seleção de quantidade de itens**:
    - Esta faltando adicionar um botão para a seleção de quantidade de itens a serem comprando.
-   
-2. **Otimização da Tela de Login para Mobile**:
-   - Na versão mobile, o formulário de login pode ficar difícil de ler, especialmente em dispositivos menores. Sugestão: Ajustar o layout para que os campos de entrada se adaptem melhor às diferentes resoluções de tela.
-   
-3. **Adicionar Feedback Visual em Ações Importantes**:
-   - Não há feedback visual após clicar no botão de login. Sugestão: Implementar um ícone de carregamento enquanto a requisição está sendo processada para o usuário saber que a ação está sendo realizada.
 
 
 ## Análise de Riscos da Aplicação
@@ -336,7 +330,7 @@ Validar e garantir o funcionamento correto do sistema de loja virtual SAUCE DEMO
 1. **Risco 1: **  
    - **Probabilidade**: Alta  
    - **Impacto**: Alto  
-   - **Mitigação**: Melhorar o tratamento de erros no processo de recuperação, garantindo que o e-mail de recuperação seja enviado corretamente para todos os usuários.
+   - **Mitigação**: 
 
 
 ---
